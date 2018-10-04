@@ -313,7 +313,6 @@ void init(void)
 void render()
 {	
 	Rect r;
-	char str[30];
 	makeParticle(g.mx, g.my);
 	glClear(GL_COLOR_BUFFER_BIT);
 	glClearColor(0, 0, 0, 0);
